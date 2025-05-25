@@ -1,17 +1,17 @@
-# qrcode-webpack-plugin
+# qrcode-dev-webpack-plugin
 
 generate qrcode when start webpack dev server
 
 ## usage
 
 ```bash
-npm install qrcode-webpack-plugin -D
+npm install qrcode-dev-webpack-plugin -D
 # or
-yarn add qrcode-webpack-plugin -D
+yarn add qrcode-dev-webpack-plugin -D
 ```
 
 ```js
-const QRcodeWebpackPlugin = require("qrcode-webpack-plugin");
+const QRcodeWebpackPlugin = require("qrcode-dev-webpack-plugin");
 
 module.exports = {
     mode: "development",

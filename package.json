@@ -1,5 +1,5 @@
 {
-    "name": "qrcode-webpack-plugin",
+    "name": "qrcode-dev-webpack-plugin",
     "version": "0.0.1",
     "description": "generate qrcode when start webpack dev server",
     "main": "dist/index.js",
@@ -16,7 +16,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sktm4a1/qrcode-webpack-plugin.git"
+        "url": "git+https://github.com/sktm4a1/qrcode-dev-webpack-plugin.git"
     },
     "keywords": [
         "webpack-plugin",
@@ -27,9 +27,9 @@
     "author": "maxinpeng",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/sktm4a1/qrcode-webpack-plugin/issues"
+        "url": "https://github.com/sktm4a1/qrcode-dev-webpack-plugin/issues"
     },
-    "homepage": "https://github.com/sktm4a1/qrcode-webpack-plugin#readme",
+    "homepage": "https://github.com/sktm4a1/qrcode-dev-webpack-plugin#readme",
     "dependencies": {
         "qrcode-terminal": "^0.12.0"
     },

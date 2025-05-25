@@ -1,1 +1,1 @@
-console.log('qrcode-webpack-plugin run successfully')
+console.log('qrcode-dev-webpack-plugin run successfully')
