@@ -24,9 +24,9 @@ module.exports = {
 ```
 
 ## options
-| param | description | type | required|
-| ----  | ---- | ----  |  ---- |
-|  small | qrcode size is small or not | boolean | false |
+| param | description | type | required| default |
+| ----  | ---- | ----  |  ---- | --- |
+|  size | qrcode image size  | "small" \|  "large" | false | "small" |
 
 
 ## example
