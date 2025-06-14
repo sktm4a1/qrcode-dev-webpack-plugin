@@ -1,7 +1,7 @@
 {
     "name": "qrcode-dev-webpack-plugin",
-    "version": "0.0.1",
-    "description": "generate qrcode when start webpack dev server",
+    "version": "0.0.2",
+    "description": "display qrcode when start webpack dev server",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
@@ -35,8 +35,8 @@
     },
     "devDependencies": {
         "@rollup/plugin-typescript": "^12.1.2",
+        "@types/node": "^24.0.1",
         "@types/qrcode-terminal": "^0.12.2",
-        "html-webpack-plugin": "^5.6.3",
         "rimraf": "5.0.9",
         "rollup": "^4.41.1",
         "typescript": "^5.8.3",
