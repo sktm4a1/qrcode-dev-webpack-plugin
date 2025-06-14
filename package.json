@@ -1,6 +1,6 @@
 {
     "name": "qrcode-dev-webpack-plugin",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "display qrcode when start webpack dev server",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
