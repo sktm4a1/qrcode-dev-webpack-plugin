@@ -9,10 +9,9 @@
         "dist"
     ],
     "scripts": {
-        "clean": "rimraf dist",
-        "build": "npm run clean && tsc && rollup -c",
+        "build": "tsc && rollup -c",
         "prepare": "npm run build",
-        "test": "webpack serve --mode development --config example/webpack.config.js"
+        "example": "pnpm -C example start"
     },
     "repository": {
         "type": "git",
@@ -37,11 +36,8 @@
         "@rollup/plugin-typescript": "^12.1.2",
         "@types/node": "^24.0.1",
         "@types/qrcode-terminal": "^0.12.2",
-        "rimraf": "5.0.9",
         "rollup": "^4.41.1",
         "typescript": "^5.8.3",
-        "webpack": "^5.99.9",
-        "webpack-cli": "^6.0.1",
-        "webpack-dev-server": "^5.2.1"
+        "webpack": "^5.99.9"
     }
 }

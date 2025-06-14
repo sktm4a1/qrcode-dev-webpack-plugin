@@ -1,0 +1,14 @@
+{
+    "name": "qrcode-dev-webpack-plugin-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack serve --mode development"
+    },
+    "devDependencies": {
+        "qrcode-dev-webpack-plugin": "workspace:*",
+        "webpack": "^5.99.9",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.1"
+    }
+}

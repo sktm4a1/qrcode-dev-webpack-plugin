@@ -1,6 +1,6 @@
 import type { Compiler } from "webpack";
 interface Options {
-    size: "small" | "large";
+    size?: "small" | "large";
 }
 declare class QRcodeWebpackPlugin {
     options: Options;

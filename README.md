@@ -1,6 +1,6 @@
 # qrcode-dev-webpack-plugin
 
-generate qrcode when start webpack dev server
+display qrcode when start webpack dev server
 
 ## usage
 
@@ -24,13 +24,15 @@ module.exports = {
 ```
 
 ## options
-| param | description | type | required| default |
-| ----  | ---- | ----  |  ---- | --- |
-|  size | qrcode image size  | "small" \|  "large" | false | "small" |
 
+| param | description       | type               | required | default |
+| ----- | ----------------- | ------------------ | -------- | ------- |
+| size  | qrcode image size | "small" \| "large" | false    | "small" |
 
 ## example
+
 ![example](./example/qrcode-webpack.png "example image")
 
 ## license
+
 [MIT](./LICENSE)

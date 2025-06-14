@@ -7,6 +7,7 @@ const pluginName = "QRcodeWebpackPlugin";
 function getLocalIP() {
     const availableIPs: string[] = [];
     const interfaces = os.networkInterfaces();
+
     for (const name of Object.keys(interfaces)) {
         if (interfaces[name]) {
             for (const iface of interfaces[name]) {
@@ -21,7 +22,7 @@ function getLocalIP() {
 }
 
 interface Options {
-    size: "small" | "large";
+    size?: "small" | "large";
 }
 
 class QRcodeWebpackPlugin {

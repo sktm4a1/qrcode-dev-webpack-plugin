@@ -1,5 +1,5 @@
 const path = require("path");
-const QRcodeWebpackPlugin = require("../dist/index.js");
+const QRcodeWebpackPlugin = require("qrcode-dev-webpack-plugin");
 
 module.exports = {
     mode: "development",
